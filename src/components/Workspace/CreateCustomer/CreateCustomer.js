@@ -31,6 +31,7 @@ export default class CreateCustomer extends Component {
       log: ''
     }
 
+    this.props.createCustomer( customer )
   }
 
   render() {
